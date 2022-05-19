@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta charset="UTF-8">
+   <title>Contact</title>
+   <body>
+      <header>
+         <h1>Kid's Cafe</h1>
+         <nav>
+            <a href="home.html">Home</a> &nbsp;
+            <a href="menu.html">Menu</a> &nbsp;
+            <a href="contact.html">Contact Us</a>
+         </nav>
+      </header>
+      
+      <main>
+        
+         <form method="post" action="contact.html">    <br><br>     
+            <div>
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name" required>
+            </div><br>
+
+            <div>
+               <label for="email">Email:</label>
+               <input type="text" id="email" name="email" required>
+            </div><br>
+
+            <div>
+               <label for="phone">Phone:</label>
+               <input type="text" id="phone" name="phone">
+            </div><br>
+
+            <div>
+               <label for="contact">Reason for Inquiry:</label>
+               <select id="contact" name="contact" required>
+                  <option value="default" selected>Catering</option>
+                  <option>Home Delivery</option>
+                  <option>On site Pick-Up</option>
+                  
+               </select>
+            </div><br>
+            
+            
+            <div>
+               <label for="details">Additional Information:</label>
+            
+               <textarea id="details" name="details" rows="5" cols="40" required></textarea>
+            </div><br>
+
+            <div>
+                <label for="question">Have you been to the restaurant? </label>
+                <input type="radio" name="restaurant" id="question" checked>No
+                <input type="radio" name="restaurant"  id="question">Yes
+                
+            </div><br>
+
+            <div>
+                <label for="day">Best days to contact you: </label>
+                <input type="checkbox" name="restaurant"  id="day">M
+                <input type="checkbox" name="restaurant"  id="day">T
+                <input type="checkbox" name="restaurant"  id="day">W
+                <input type="checkbox" name="restaurant"  id="day">Th
+                <input type="checkbox" name="restaurant"  id="day">F
+            </div><br>
+
+            <button>Send Request</button>
+         </form>
+      </main>
+      
+      <footer>
+         <p>
+            Address:30 Gilder Drive,Toronto,ON
+         </p>
+         <p>Telepone:+1 432-324-5533</p>
+      </footer>      
+        
+   </body>
+</html>
